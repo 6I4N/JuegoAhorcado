@@ -67,6 +67,7 @@
                         {
                             juego = false;
                             Console.WriteLine("\nPERDISTE!");
+                            Console.WriteLine("La palabra era: " + palabras[numRandom]);
                         }
                     }
                 } while (juego == true);
@@ -127,6 +128,7 @@
                         {
                             juego = false;
                             Console.WriteLine("\nFIN DEL JUEGO!");
+                            Console.WriteLine("La palabra era: " + palabra);
                         }
                     }
                 } while (juego == true);
